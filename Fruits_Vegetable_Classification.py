@@ -1,4 +1,6 @@
 import streamlit as st
+import subprocess
+
 from PIL import Image
 from keras.preprocessing.image import load_img, img_to_array
 import numpy as np
@@ -9,6 +11,11 @@ import cv2
 import time
 import cvlib as cv
 from cvlib.object_detection import draw_bbox
+
+def run_flask_app():
+    subprocess.Popen(["python", "app.py"])
+
+run_flask_app()
 
 model = load_model('FV.h5')
 
@@ -139,14 +146,17 @@ def prepare_image(img):
 
 def run():
     st.markdown(
-        """
-        <style>
-            body {
-                background-image: url('ef411ae1-60de-4724-b2ad-ae56034ee130.jpg');
-                background-size: cover;
-            }
-        </style>
-        """
+        st.markdown(
+    """
+    <style>
+        body {
+            background-image: url('ef411ae1-60de-4724-b2ad-ae56034ee130.jpg');
+            background-size: cover;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
         , unsafe_allow_html=True)
     st.title("Fruits🍍-Vegetable🍅 Classification")
     option = st.radio(
@@ -193,7 +203,7 @@ def run():
 
             cap.release()
             cv2.destroyAllWindows()
-    else:
+    elif option == "Image Upload":
         st.title("Image Upload")
         img_file = st.file_uploader("Choose an Image", type=["jpg", "png"])
         if img_file is not None:
@@ -224,6 +234,13 @@ def run():
                 box, label, c_score = cv.detect_common_objects(im)
                 output = draw_bbox(im, box, label, c_score)
                 st.write(f'Number of objects detected: {len(label)}')
+                
+    elif option == "Chatbot":
+    # Embed the Flask app using iframe
+        st.markdown(
+         '<iframe src="http://localhost:5000" width="800" height="600"></iframe>',
+            unsafe_allow_html=True
+        )
 
 if __name__ == "__main__":
     run()

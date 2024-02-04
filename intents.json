@@ -1,0 +1,354 @@
+{
+   "intents":[
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Hi",
+            "Hello",
+            "Good day",
+            "Hey",
+            "Greetings",
+            "Howdy"
+         ],
+         "responses": [
+            "Hello!",
+            "Hi there! How can I assist you?",
+            "Good to see you!",
+            "Hey! What can I do for you today?",
+            "Greetings! How may I help you?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Goodbye",
+            "Bye",
+            "See you later",
+            "Farewell",
+            "Take care",
+            "Until next time"
+         ],
+         "responses": [
+            "Goodbye!",
+            "See you soon!",
+            "Until next time!",
+            "Bye for now!"
+         ],
+         "context_set": ""
+      },
+      
+      {
+         "tag": "organic",
+         "patterns": [
+            "Organic fruits and vegetables",
+            "Are your products organic?",
+            "Tell me about organic options",
+            "Any organic fruits?",
+            "Do you offer organic vegetables?"
+         ],
+         "responses": [
+            "We prioritize quality and offer organic fruits and vegetables. Our organic options are grown without synthetic pesticides or fertilizers, providing you with wholesome and natural choices."
+         ],
+         
+         "context_set": ""
+      },
+      {
+         "tag": "Tomato",
+         "patterns": ["How much are Tomatoes?", "What is the price of Tomatoes?", "Tomato price", "Tomato cost"],
+         "response": ["The price of Tomato is Rs. 40.00 per Kg."]
+      },
+      {
+         "tag": "Beans",
+         "patterns": ["How much is Beans?", "What is the price of Beans?", "Beans price", "Beans cost"],
+         "responses": ["The price of Beans is Rs. 80.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Beetroot",
+         "patterns": ["How much is Beetroot?", "What is the price of Beetroot?", "Beetroot price", "Beetroot cost"],
+         "responses": ["The price of Beetroot is Rs. 45.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Bitter Gourd",
+         "patterns": ["How much is Bitter Gourd?", "What is the price of Bitter Gourd?", "Bitter Gourd price", "Bitter Gourd cost"],
+         "responses": ["The price of Bitter Gourd is Rs. 60.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Bottle Gourd",
+         "patterns": ["How much is Bottle Gourd?", "What is the price of Bottle Gourd?", "Bottle Gourd price", "Bottle Gourd cost"],
+         "responses": ["The price of Bottle Gourd is Rs. 20.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Brinjal",
+         "patterns": ["How much is Brinjal?", "What is the price of Brinjal?", "Brinjal price", "Brinjal cost"],
+         "responses": ["The price of Brinjal is Rs. 40.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "French Beans",
+         "patterns": ["How much is French Beans?", "What is the price of French Beans?", "French Beans price", "French Beans cost"],
+         "responses": ["The price of French Beans is Rs. 45.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Cabbage",
+         "patterns": ["How much is Cabbage?", "What is the price of Cabbage?", "Cabbage price", "Cabbage cost"],
+         "responses": ["The price of Cabbage is Rs.25.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Capsicum",
+         "patterns": ["How much is Capsicum?", "What is the price of Capsicum?", "Capsicum price", "Capsicum cost"],
+         "responses": ["The price of Capsicum is Rs. 55.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Carrot",
+         "patterns": ["How much is Carrot?", "What is the price of Carrot?", "Carrot price", "Carrot cost"],
+         "responses": ["The price of Carrot is Rs. 50.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Cauliflower",
+         "patterns": ["How much is Cauliflower?", "What is the price of Cauliflower?", "Cauliflower price", "Cauliflower cost"],
+         "responses": ["The price of Cauliflower is Rs. 45.00 per Piece."],
+         "context_set": ""
+       },
+       
+       {
+         "tag": "Coriander Leaves",
+         "patterns": ["How much is Coriander Leaves?", "What is the price of Coriander Leaves?", "Coriander Leaves price", "Coriander Leaves cost"],
+         "responses": ["The price of Coriander Leaves is Rs. 20.00 per Bunch."],
+         "context_set": ""
+       },
+       {
+         "tag": "Cucumber",
+         "patterns": ["How much is Cucumber?", "What is the price of Cucumber?", "Cucumber price", "Cucumber cost"],
+         "responses": ["The price of Cucumber is Rs. 30.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Drumstick",
+         "patterns": ["How much is Drumstick?", "What is the price of Drumstick?", "Drumstick price", "Drumstick cost"],
+         "responses": ["The price of Drumstick is Rs. 60.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Ginger",
+         "patterns": ["How much is Ginger?", "What is the price of Ginger?", "Ginger price", "Ginger cost"],
+         "responses": ["The price of Ginger is Rs. 240.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Green Chili",
+         "patterns": ["How much are Green Chilies?", "What is the price of Green Chilies?", "Green Chili price", "Green Chili cost"],
+         "responses": ["The price of Green Chili is Rs. 40.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Ladies Finger",
+         "patterns": ["How much is Ladies Finger?", "What is the price of Ladies Finger?", "Ladies Finger price", "Ladies Finger cost"],
+         "responses": ["The price of Ladies Finger is Rs. 35.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Mint",
+         "patterns": ["How much is Mint?", "What is the price of Mint?", "Mint price", "Mint cost"],
+         "responses": ["The price of Mint is Rs. 10.00 per Bunch."],
+         "context_set": ""
+       },
+       {
+         "tag": "Onion",
+         "patterns": ["How much is Onion?", "What is the price of Onion?", "Onion price", "Onion cost"],
+         "responses": ["The price of Onion is Rs. 25.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Potato",
+         "patterns": ["How much is Potato?", "What is the price of Potato?", "Potato price", "Potato cost"],
+         "responses": ["The price of Potato is Rs. 20.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Pumpkin",
+         "patterns": ["How much is Pumpkin?", "What is the price of Pumpkin?", "Pumpkin price", "Pumpkin cost"],
+         "responses": ["The price of Pumpkin is Rs. 20.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Radish",
+         "patterns": ["How much is Radish?", "What is the price of Radish?", "Radish price", "Radish cost"],
+         "responses": ["The price of Radish is Rs. 30.00 per Kg."],
+         "context_set":""
+       },
+       {
+         "tag": "Apple",
+         "patterns": ["How much is Apple?", "What is the price of Apple?", "Apple price", "Apple cost"],
+         "responses": ["The price of Apple is Rs. 220.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Avocado",
+         "patterns": ["How much is Avocado?", "What is the price of Avocado?", "Avocado price", "Avocado cost"],
+         "responses": ["The price of Avocado is Rs. 180.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Black Grape",
+         "patterns": ["How much is Black Grape?", "What is the price of Black Grape?", "Black Grape price", "Black Grape cost"],
+         "responses": ["The price of Black Grape is Rs. 80.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Cherry",
+         "patterns": ["How much is Cherry?", "What is the price of Cherry?", "Cherry price", "Cherry cost"],
+         "responses": ["The price of Cherry is Rs. 600.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Coconut",
+         "patterns": ["How much is Coconut?", "What is the price of Coconut?", "Coconut price", "Coconut cost"],
+         "responses": ["The price of Coconut is Rs. 30.00 per Piece."],
+         "context_set": ""
+       },
+       {
+         "tag": "Custard Apple",
+         "patterns": ["How much is Custard Apple?", "What is the price of Custard Apple?", "Custard Apple price", "Custard Apple cost"],
+         "responses": ["The price of Custard Apple is Rs. 140.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Date",
+         "patterns": ["How much is Date?", "What is the price of Date?", "Date price", "Date cost"],
+         "responses": ["The price of Date is Rs. 480.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Fig",
+         "patterns": ["How much is Fig?", "What is the price of Fig?", "Fig price", "Fig cost"],
+         "responses": ["The price of Fig is Rs. 180.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Gooseberry",
+         "patterns": ["How much is Gooseberry?", "What is the price of Gooseberry?", "Gooseberry price", "Gooseberry cost"],
+         "responses": ["The price of Gooseberry is Rs. 220.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Green Banana",
+         "patterns": ["How much is Green Banana?", "What is the price of Green Banana?", "Green Banana price", "Green Banana cost"],
+         "responses": ["The price of Green Banana is Rs. 60.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Green Grape",
+         "patterns": ["How much is Green Grape?", "What is the price of Green Grape?", "Green Grape price", "Green Grape cost"],
+         "responses": ["The price of Green Grape is Rs. 80.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Jackfruit",
+         "patterns": ["How much is Jackfruit?", "What is the price of Jackfruit?", "Jackfruit price", "Jackfruit cost"],
+         "responses": ["The price of Jackfruit is Rs. 170.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Lemon",
+         "patterns": ["How much is Lemon?", "What is the price of Lemon?", "Lemon price", "Lemon cost"],
+         "responses": ["The price of Lemon is Rs. 175.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Mango",
+         "patterns": ["How much is Mango?", "What is the price of Mango?", "Mango price", "Mango cost"],
+         "responses": ["The price of Mango is Rs. 70.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Mosambi",
+         "patterns": ["How much is Mosambi?", "What is the price of Mosambi?", "Mosambi price", "Mosambi cost"],
+         "responses": ["The price of Mosambi is Rs. 60.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Orange",
+         "patterns": ["How much is Orange?", "What is the price of Orange?", "Orange price", "Orange cost"],
+         "responses": ["The price of Orange is Rs. 70.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Papaya",
+         "patterns": ["How much is Papaya?", "What is the price of Papaya?", "Papaya price", "Papaya cost"],
+         "responses": ["The price of Papaya is Rs. 90.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Peach",
+         "patterns": ["How much is Peach?", "What is the price of Peach?", "Peach price", "Peach cost"],
+         "responses": ["The price of Peach is Rs. 230.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Pear",
+         "patterns": ["How much is Pear?", "What is the price of Pear?", "Pear price", "Pear cost"],
+         "responses": ["The price of Pear is Rs. 185.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Pineapple",
+         "patterns": ["How much is Pineapple?", "What is the price of Pineapple?", "Pineapple price", "Pineapple cost"],
+         "responses": ["The price of Pineapple is Rs. 90.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Plum",
+         "patterns": ["How much is Plum?", "What is the price of Plum?", "Plum price", "Plum cost"],
+         "responses": ["The price of Plum is Rs. 280.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Pomegranate",
+         "patterns": ["How much is Pomegranate?", "What is the price of Pomegranate?", "Pomegranate price", "Pomegranate cost"],
+         "responses": ["The price of Pomegranate is Rs. 130.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Sapota",
+         "patterns": ["How much is Sapota?", "What is the price of Sapota?", "Sapota price", "Sapota cost"],
+         "responses": ["The price of Sapota is Rs. 90.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Strawberry",
+         "patterns": ["How much is Strawberry?", "What is the price of Strawberry?", "Strawberry price", "Strawberry cost"],
+         "responses": ["The price of Strawberry is Rs. 420.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Watermelon",
+         "patterns": ["How much is Watermelon?", "What is the price of Watermelon?", "Watermelon price", "Watermelon cost"],
+         "responses": ["The price of Watermelon is Rs. 25.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "Banana",
+         "patterns": ["How much is Banana?", "What is the price of Banana?", "Banana price", "Banana cost"],
+         "responses": ["The price of Banana is Rs. 65.00 per Kg."],
+         "context_set": ""
+       },
+       {
+         "tag": "tomato",
+         "patterns": ["How much is tomato?", "What is the price of tomato?", "tomato price", "tomato cost"],
+         "responses": ["The price of tomato is Rs. 65.00 per Kg."],
+         "context_set": ""
+       }
+
+
+      
+   ]
+}
